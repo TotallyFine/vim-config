@@ -10,3 +10,15 @@
 ```
 其他语言的语法文件也可以在这个路径中找到。无论如何都可以在~/.vim/syntax/c.vim中配置自己的C语言语法高亮，如果没有这个文件就可以新建一个。
 
+### 插件
+安装Vundle插件管理器
+```shell
+git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
+```
+下载Vundle并安装在~/.vim/bundles文件夹中，现在可以通过.vimrc来管理所有扩展
+
+### 布局
+使用:sv <filename>打开一个文件这样是纵向分割布局
+
+### 参考
+[vim 打造Python开发环境](https://segmentfault.com/a/1190000003962806)
